@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    /* CSS FOR FIRST PAGE */
+    .buttn{
+        position:relative;
+    bottom: 25px;
+        left: 1220px;
+        border: 200px;
+        border-radius: 50px;
+        font-size: 13px;
+        padding: 6px 40px;
+        border: 2px solid black;
+         font-weight: 800;
+         background-color: white;
+         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+
+    .page{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       position: relative;
+       top: 70px;
+       text-align: center;
+       margin: 0;
+
+    }
+
+    .highlight{
+        position: relative;
+        bottom: 13px;
+    }
+.hello{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#yo{
+    color: blue;
+}
+.wo{
+    font-size: larger;
+    border-radius: 50px;
+    padding: 7px 80px;
+    background-color: rgb(56, 56, 250);
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+    .mage{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        size: 50px;
+        position: relative;
+        top: 120px;
+        right: 20px;
+    }
+    .box{
+        height: 150px;
+        width: 150px;
+        background-color: cornflowerblue;
+        position: absolute;
+        right: 350px;
+        bottom: -50px;
+        filter: blur(110px);
+    }
+        /* CSS FOR SECOND PAGE */
+    .go{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: 200px;
+
+    }
+    .sh{position: relative;
+        top: 20px;
+        right: 270px;
+
+    }
+    .cb{
+        position: relative;
+        bottom: 260px;
+        left: 200px;
+        font-weight: 300;
+    }
+    #id{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+        
+        .fo{
+            padding: 10px 40px;
+            background-color: rgb(30, 98, 223);
+            color: white;
+            border-radius: 50px;
+            font-size: 15px;
+        }
+
+        /* CSS FOR THIRD PAGE */
+        /* .third{
+            background-color:grey;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            font-size: 10px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            position: relative;
+            top: 10px;
+        }
+
+        #w{
+            position: relative;
+            top: 10px;
+            font-weight: lighter;
+            font-size: 16px;
+        }
+
+        .a{
+            background-color:white;
+            box-shadow:black;
+            position: relative;
+            height: 200px;
+            width: 300px;
+            gap: 20px;
+            padding: 10px 10px;
+            font-size: 15px;
+        }
+
+        .container{display: flex;
+                  justify-content: space-around;
+                  background-color: grey;
+                  position: relative;
+                  top: 40px;
+                
+        }
+    
+    .b{ background-color: whitesmoke;
+            box-shadow:black;
+            position: relative;
+            height: 200px;
+            width: 300px;
+            gap: 20px;
+            padding: 10px 10px;
+            font-size: 15px;
+         }
+
+.container2{
+                  display: flex;
+                  justify-content: space-around;
+                  background-color: grey;
+                  position: relative;
+                  top: 15px;
+
+} */
+
+.thirdpage{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        .textofthirdpage{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #headingofthirdpage{
+            margin-top: 65px;
+            font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+            font-size: 20px;
+        }
+        #textofheading{
+            font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+            font-size: 15px;
+            margin-top: 10px;
+        }
+        .contentof3rdpage{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .first{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 45px;
+            gap: 15px;
+        }
+        .firstrow{
+            height: 170px;
+            width: 330px;
+            display: flex;
+            flex-direction: column;
+            justify-content: baseline;
+            align-items: center;
+            border: solid white;
+            background-color: white;
+        }
+        .thirdpagecontentheading{
+            margin-top: 5px;
+            font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+            font-size: 15px;
+        }
+        .thirdpagecontenttext{
+            margin-top: 5px;
+            font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+            font-size: 13px;
+        }
+        .second{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 15px;
+            margin-left: 15px;
+            gap: 15px;
+        }
+        .secondrow{
+            height: 170px;
+            width: 330px;
+            display: flex;
+            flex-direction: column;
+            justify-content: baseline;
+            align-items: center;
+            border: solid white;
+            background-color: white;
+            position: relative;
+            top: 15px;
+        }
+        .image{
+            margin-top: 15px;
+            background-color: rgb(243 244 246);
+            height: 53px;
+            width: 53px;
+            border-radius: 26.5px;
+        }
+        .Getstarted2{
+            height: 36px;
+            width: 150px;
+            border-radius: 18px;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: white;
+            background-color: #2563EB;
+            border: 1px solid white;
+            margin-top: 55px;
+            margin-bottom: 35px;
+            cursor: pointer;
+        }
+</style>
+<body>
+    <!-- FIRSTPAGE -->
+    <div>
+        <img src="https://qsumare.netlify.app/public/Osumare%20Logo-01%20(2)%204.png" alt="sumare tag" width="100px" height="60px">
+         <button class="buttn">Contact us</button></div> 
+    </div>
+
+    <div class="page">
+    <h1 class="hello">Elevate <span id="yo">Real Estate Success </span>with <br>
+                 Osumare's Digital Expertise</h1>
+    <span class="highlight">Tailored Solutions for Thriving in the Digital Real Estate Landscape</span> 
+    <button class="wo">Get Started</button>
+    <div class="box"></div>
+
+    </div>
+    <div class="mage">
+        <img src="https://qsumare.netlify.app/public/Header%20image.png" alt="" width="550px" height="350px"></div><br><br><br><br><br><br>
+
+
+
+        <hr>
+
+        <!-- SECONDPAGE -->
+
+
+        <div class="go">
+            <div class="sup"><h2>Real Estate-Focused Digital Mastery</h2></div>
+            <div class="sh"><img src="https://qsumare.netlify.app/public/cuate.png" alt="" height="270px" width="400px"></div>
+
+            <div class="cb"><h2 ><span id="woo">Unlock the Potential of Digital Real Estate <br>Excellence</span> <br></h2>
+
+                <p>At Osumare, we understand that the real estate landscape demands a <br>
+                digital presence that aligns with the intricacies of property marketing. <br>
+                Our range of specialized services is meticulously designed to catapult <br>
+                 your brand's success in the ever-evolving digital property market.</p>
+
+                 <button class="fo">Get Started</button>
+        </div></div><br><br><br><br>
+                
+        <Hr></Hr>
+
+        <!-- THIRDPAGE -->
+
+        <!-- <div class="third">
+            <h1>Our Service Offerings <br>
+            <span id="w">Strategies that Drive Property Market Excellence</span> 
+           </h1>
+        </div>
+            
+
+            <div class="container">
+                 <div class="a">
+                             <img src="https://qsumare.netlify.app/public/Group%20117.png" alt="" width="40px" height="40px" >
+                             <p>Drive Your Success with Automotive SEO:  <br>Ignite Online Visibility and Outrace the <br> Competition. Accelerate Your Business <br>  Growth Today</p>
+            </div>
+                   
+           
+            <div class="a">
+                        <img src="https://qsumare.netlify.app/public/Group%20117%20(1).png" alt="">
+                    <p>Maximize visibility and drive quality traffic with <br> meticulously targeted Pay-Per-Click campaigns.</p></div>
+            
+                <div class="a"><img src="https://qsumare.netlify.app/public/Group%20117%20(2).png" alt="">
+                <p>Engage and influence your audience across <br> social media platforms, amplifying your brand's <br> presence and connection.</p></div>
+                <div class="a"><img src="https://qsumare.netlify.app/public/content.png" alt="">
+                    <p>Craft compelling, automotive-specific content <br> that resonates with enthusiasts and drives <br>engagement.</p></div>
+            </div>
+           
+                
+
+            
+               <div class="container2">
+                <div class="b"><img src="https://qsumare.netlify.app/public/content.png" alt="">
+                <p>Transform visitors into customers with high- <br>performance websites designed for seamless <br> user experiences and increased conversions.</p></div>
+                <div class="b"><img src="https://qsumare.netlify.app/public/content.png" alt="">
+                    <p>Leverage data to refine your strategies, making <br> informed decisions that drive revenue growth.</p></div>
+                <div class="b"><img src="https://qsumare.netlify.app/public/content.png" alt="">
+                <p>Drive Your Success with Automotive SEO: Ignite <br>Online Visibility and Outrace the Competition. <br> Accelerate Your Business Growth Today</p></div>
+                <div class="b"><img src="https://qsumare.netlify.app/public/content.png" alt="">
+                <p>rom initial awareness to post-purchase loyalty <br>, we offer full-funnel solutions that guide <br> customers through every step of their journey.</p></div>
+            </div>  -->
+
+
+            <div class="thirdpage">
+                <div class="textofthirdpage">
+                    <h1 id="headingofthirdpage">Our Service Offerings</h1>
+                    <p id="textofheading">Strategies that Drive Property Market Excellence</p>
+                    <div class="contentof3rdpage">
+                        <div class="first">
+                            <div class="firstrow" id="firsrowcontent1">
+                                <img src="https://qsumare.netlify.app/public/Group%20117.png" class="image">
+                                <h1 class="thirdpagecontentheading">Automotive SEO</h1>
+                                <p class="thirdpagecontenttext">Drive Your Success with Automotive SEO: Ignite</p>
+                                <p class="thirdpagecontenttext">Online Visibility and Outrace the Competition.</p>
+                                <p class="thirdpagecontenttext">Accelerate Your Business Growth Today</p>
+                            </div>
+                            <div class="firstrow" id="firsrowcontent2">
+                                <img src="https://qsumare.netlify.app/public/Group%20117%20(1).png" class="image">
+                                <h1 class="thirdpagecontentheading">PPC Precision</h1>
+                                <p class="thirdpagecontenttext">Maximize visibility and drive quality traffic with</p>
+                                <p class="thirdpagecontenttext">meticulously targeted Pay-Per-Click campaigns.</p>
+                            </div>
+                            <div class="firstrow" id="firsrowcontent3">
+                                <img src="https://qsumare.netlify.app/public/Group%20117%20(2).png" class="image">
+                                <h1 class="thirdpagecontentheading">Social Acceleration</h1>
+                                <p class="thirdpagecontenttext">Engage and influence your audience across social</p>
+                                <p class="thirdpagecontenttext">media platforms, amplifying your brand's presence</p>
+                                <p class="thirdpagecontenttext">and connection.</p>
+                            </div>
+                            <div class="firstrow" id="firsrowcontent4">
+                                <img src="https://qsumare.netlify.app/public/content.png" class="image">
+                                <h1 class="thirdpagecontentheading">Content Excellence</h1>
+                                <p class="thirdpagecontenttext">Craft compelling, automotive-specific content that</p>
+                                <p class="thirdpagecontenttext">resonates with enthusiasts and drives engagement.</p>
+                            </div>
+                        </div>
+                        <div class="second">
+                            <div class="secondrow">
+                                <img src="https://qsumare.netlify.app/public/Group%20117%20(4).png" class="image" >
+                                <h1 class="thirdpagecontentheading">Web Design</h1>
+                                <p class="thirdpagecontenttext">Transform visitors into customers with high-</p>
+                                <p class="thirdpagecontenttext">performance websites designed for seamless user</p>
+                                <p class="thirdpagecontenttext">experiences and increased conversions.</p>
+                            </div>
+                            <div class="secondrow">
+                                <img src="https://qsumare.netlify.app/public/Data%20driven%20(1).png" class="image">
+                                <h1 class="thirdpagecontentheading">Data-Driven Insights</h1>
+                                <p class="thirdpagecontenttext">Leverage data to refine your strategies, making</p>
+                                <p class="thirdpagecontenttext">informed decisions that drive revenue growth.</p>
+                            </div>
+                            <div class="secondrow">
+                                <img src="https://qsumare.netlify.app/public/Data%20driven%20(1).png" class="image">
+                                <h1 class="thirdpagecontentheading">End-to-End Solutions</h1>
+                                <p class="thirdpagecontenttext">Drive Your Success with Automotive SEO: Ignite Online</p>
+                                <p class="thirdpagecontenttext">Visibility and Outrace the Competition. Accelerate</p>
+                                <p class="thirdpagecontenttext">Your Business Growth Today</p>
+                            </div>
+                            <div class="secondrow">
+                                <img src="https://qsumare.netlify.app/public/Group%20117%20(7).png" class="image">
+                                <h1 class="thirdpagecontentheading">Video marketing</h1>
+                                <p class="thirdpagecontenttext">From initial awareness to post-purchase loyalty, we</p>
+                                <p class="thirdpagecontenttext">offer full-funnel solutions that guide customers</p>
+                                <p class="thirdpagecontenttext">through every step of their journey.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="Getstarted2">Getstarted</button>
+                </div>
+            </div>
+                
+        
+            
+
+
+        
+    
+</body>
+</html>
